@@ -67,7 +67,7 @@ export default function EventsDetailPage({ params }) {
                     },
                 ]}
             />
-            <div class="w-full flex justify-center items-center">
+            <div className="w-full flex justify-center items-center">
                 <EventPageSection
                     title={removeUnderscoresAndCapitalize(event_name)}
                 />

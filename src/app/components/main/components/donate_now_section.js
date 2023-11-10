@@ -116,10 +116,10 @@ const DonateNowFormSection = () => {
                 </div>
                 <div className="flex flex-row justify-between items-center gap-4">
                 <div className="flex flex-col justify-start items-start gap-1">
-                    <h2 class="text-sm font-bold text-slate-800">
+                    <h2 className="text-sm font-bold text-slate-800">
                         Total Donations
                     </h2>
-                    <h4 class="text-xl font-extrabold text-red-600">
+                    <h4 className="text-xl font-extrabold text-red-600">
                         ${amount}
                     </h4>
                 </div>

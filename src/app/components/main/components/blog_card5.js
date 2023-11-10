@@ -26,7 +26,7 @@ export default function BlogCard5({
                     height={32 * 9}
                     className="w-[380px] h-[275px] rounded-lg"
                 />
-                <div class="absolute -bottom-5 flex justify-center items-center">
+                <div className="absolute -bottom-5 flex justify-center items-center">
                     <CircularProgressBar
                         color={button_color}
                         percentage={Math.round(percentage * 100)}

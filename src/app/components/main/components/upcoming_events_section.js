@@ -15,6 +15,7 @@ export default function UpcomingEventsSection() {
                     Event
                     <Image
                         src={"/img/word_marker.png"}
+                        alt="word_marker image"
                         width={32 * 16}
                         height={32 * 9}
                         className="w-full h-8 absolute -bottom-5 left-0"
@@ -26,7 +27,7 @@ export default function UpcomingEventsSection() {
                 difference in the lives of the less fortunate.
             </p>
             <div className="flex flex-row flex-wrap justify-center items-center sm:gap-3">
-                <div class="flex flex-col justify-center items-center rounded-xl overflow-hidden gap-5 sm:gap-3 m-4 sm:m-0">
+                <div className="flex flex-col justify-center items-center rounded-xl overflow-hidden gap-5 sm:gap-3 m-4 sm:m-0">
                     <BlogCard4
                         src={"/img/medical_camp2.jpg"}
                         button_color={"red-600"}
@@ -35,7 +36,7 @@ export default function UpcomingEventsSection() {
                         place={"Muskmelon City"}
                     />
                 </div>
-                <div class="flex flex-col justify-center items-center rounded-xl overflow-hidden gap-6 sm:gap-3 m-4 sm:m-0">
+                <div className="flex flex-col justify-center items-center rounded-xl overflow-hidden gap-6 sm:gap-3 m-4 sm:m-0">
                     <BlogCard4
                         src={"/img/medical_camp1.jpg"}
                         button_color={"red-600"}
@@ -51,7 +52,7 @@ export default function UpcomingEventsSection() {
                         place={"Muskmelon City"}
                     />
                 </div>
-                <div class="flex flex-col justify-center items-center rounded-xl overflow-hidden gap-6 sm:gap-3 m-4 sm:m-0">
+                <div className="flex flex-col justify-center items-center rounded-xl overflow-hidden gap-6 sm:gap-3 m-4 sm:m-0">
                     <BlogCard4
                         src={"/img/medical_camp4.jpg"}
                         button_color={"red-600"}
@@ -67,7 +68,7 @@ export default function UpcomingEventsSection() {
                         place={"Muskmelon City"}
                     />
                 </div>
-                <div class="flex flex-col justify-center items-center rounded-xl overflow-hidden gap-6 sm:gap-3 m-4 sm:m-0">
+                <div className="flex flex-col justify-center items-center rounded-xl overflow-hidden gap-6 sm:gap-3 m-4 sm:m-0">
                     <BlogCard4
                         src={"/img/medical_camp6.jpg"}
                         button_color={"red-600"}

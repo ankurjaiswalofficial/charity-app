@@ -26,24 +26,28 @@ export default function FaqSection({ more=null, large=false }) {
                 <div className="w-full h-full rounded-xl border-2 border-dashed border-red-600"></div>
                 <Image
                     src={"/img/person7.jpeg"}
+                    alt="person7 image"
                     width={32 * 16}
                     height={32 * 9}
                     className="z-10 w-28 h-28 object-cover rounded-lg absolute -right-5 -top-5"
                 />
                 <Image
                     src={"/img/person9.jpeg"}
+                    alt="person9 image"
                     width={32 * 16}
                     height={32 * 9}
                     className="z-10 w-32 h-32 object-cover rounded-lg absolute -right-5 -bottom-5"
                 />
                 <Image
                     src={"/img/happy_medical_team.jpg"}
+                    alt="happy_medical_team image"
                     width={32 * 16}
                     height={32 * 9}
                     className="z-10 w-40 h-40 object-cover rounded-lg absolute right-2 bottom-36"
                 />
                 <Image
                     src={"/img/happy_poor_education.jpg"}
+                    alt="happy_poor_education image"
                     width={32 * 16}
                     height={32 * 9}
                     className="w-56 h-80 object-cover rounded-lg absolute -left-5 top-5"

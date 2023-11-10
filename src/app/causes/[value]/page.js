@@ -214,7 +214,7 @@ export default function PaginationCausesPage({ params }) {
                     { text: `Page ${value}`, href: `/events/${value}` },
                 ]}
             />
-            <div class="flex flex-row flex-wrap justify-evenly items-center p-4 py-12">
+            <div className="flex flex-row flex-wrap justify-evenly items-center p-4 py-12">
                 {defaultValue.map((e, index) => {
                     return (
                         <BlogCard5

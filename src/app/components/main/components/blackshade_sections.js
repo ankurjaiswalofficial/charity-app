@@ -7,6 +7,7 @@ export default function BlackShadeSection() {
         <div className="w-full relative max-h-[45rem] h-[35rem] max-[445px]:h-[40rem] overflow-hidden flex justify-center items-center">
             <Image
                 src={"/img/large_poor_children_laughing.jpg"}
+                alt="large_poor_children_laughing image"
                 width={1920}
                 height={1080}
                 className="w-full h-full object-cover"
@@ -16,7 +17,7 @@ export default function BlackShadeSection() {
                     Donation, No Matter The Size, Is{" "}
                     <span className="relative text-inherit">
                         Appreciated
-                        <Image src={"/img/word_marker.png"} width={32*16} height={32*9} className="w-full h-8 absolute -bottom-5 left-0"/>
+                        <Image src={"/img/word_marker.png"} alt="word_marker image" width={32*16} height={32*9} className="w-full h-8 absolute -bottom-5 left-0"/>
                     </span>
                     .
                 </h1>

@@ -45,9 +45,9 @@ export default function BlogCard4({
                         <a href={read_more_link} className="text-white text-xl font-extrabold capitalize">
                             {title}
                         </a>
-                        <div class="flex flex-row justify-center items-center gap-4">
-                            <h5 class="text-xs font-semibold text-gray-100 flex flex-row flex-nowrap justify-center items-center gap-1"><Clock className="text-inherit" /> {date}</h5>
-                            <h5 class="text-xs font-semibold text-gray-100 flex flex-row flex-nowrap justify-center items-center gap-1"><PinMap className="text-inherit" /> {place}</h5>
+                        <div className="flex flex-row justify-center items-center gap-4">
+                            <h5 className="text-xs font-semibold text-gray-100 flex flex-row flex-nowrap justify-center items-center gap-1"><Clock className="text-inherit" /> {date}</h5>
+                            <h5 className="text-xs font-semibold text-gray-100 flex flex-row flex-nowrap justify-center items-center gap-1"><PinMap className="text-inherit" /> {place}</h5>
                         </div>
                     </div>
                 </div>

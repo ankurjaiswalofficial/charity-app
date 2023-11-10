@@ -20,6 +20,7 @@ export default function ChooseUsSection() {
                     Center
                     <Image
                         src={"/img/word_marker.png"}
+                        alt="word_marker image"
                         width={32 * 16}
                         height={32 * 9}
                         className="w-full h-8 absolute -bottom-5 left-0"

@@ -8,11 +8,11 @@ export default function AboutUsSection() {
         <div className="flex flex-row flex-wrap justify-center items-center w-full h-auto py-14 gap-8">
             <div className="relative w-80 h-96 w-sm m-10">
                 <div className="w-full h-full rounded-xl border-2 border-dashed border-red-600"></div>
-                <Image src={"/img/person6.jpeg"} width={32*16} height={32*9} className="w-48 h-48 object-cover rounded-lg absolute -left-5 top-5" />
-                <Image src={"/img/person5.jpeg"} width={32*16} height={32*9} className="w-32 h-32 object-cover rounded-lg absolute -left-5 -bottom-5" />
-                <Image src={"/img/person7.jpeg"} width={32*16} height={32*9} className="w-32 h-32 object-cover rounded-lg absolute -right-5 -top-5"/>
-                <Image src={"/img/person9.jpeg"} width={32*16} height={32*9} className="w-48 h-48 object-cover rounded-lg absolute -right-5 bottom-5" />
-                <Image src={"/img/person3.jpeg"} width={32*16} height={32*9} className="w-24 h-24 object-cover rounded-lg absolute bottom-36 right-32"/>
+                <Image src={"/img/person6.jpeg"} alt="person6 image" width={32*16} height={32*9} className="w-48 h-48 object-cover rounded-lg absolute -left-5 top-5" />
+                <Image src={"/img/person5.jpeg"} alt="person5 image" width={32*16} height={32*9} className="w-32 h-32 object-cover rounded-lg absolute -left-5 -bottom-5" />
+                <Image src={"/img/person7.jpeg"} alt="person7 image" width={32*16} height={32*9} className="w-32 h-32 object-cover rounded-lg absolute -right-5 -top-5"/>
+                <Image src={"/img/person9.jpeg"} alt="person9 image" width={32*16} height={32*9} className="w-48 h-48 object-cover rounded-lg absolute -right-5 bottom-5" />
+                <Image src={"/img/person3.jpeg"} alt="person3 image" width={32*16} height={32*9} className="w-24 h-24 object-cover rounded-lg absolute bottom-36 right-32"/>
             </div>
             <div className="flex flex-col justify-start items-start w-sm sm:max-w-lg gap-7 p-4 pl-6">
                 <h4 className="text-xl font-bold text-red-600 capitalize">

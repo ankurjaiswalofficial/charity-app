@@ -10,7 +10,7 @@ export default function AboutUsPage() {
                 title={"Donate Now"}
                 links={[{ text: "Donate Now", href: "/donate_now" }]}
             />
-            <div class="flex justify-center items-center m-5 rounded-xl overflow-hidden">
+            <div className="flex justify-center items-center m-5 rounded-xl overflow-hidden">
                 <DonateNowFormSection />
             </div>
         </BasePage>

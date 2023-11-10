@@ -14,6 +14,7 @@ export default function BlogPostSection() {
                     Updates
                     <Image
                         src={"/img/word_marker.png"}
+                        alt="word_marker image"
                         width={32 * 16}
                         height={32 * 9}
                         className="w-full h-8 absolute -bottom-5 left-0"
@@ -21,8 +22,8 @@ export default function BlogPostSection() {
                 </span>
             </h2>
             <p className="text-sm text-gray-500 text-center w-11/12">
-                Explore the beauty of enriching others' lives and, in turn, finding your own
-                radiant happiness.
+                Explore the beauty of enriching other's lives and, in turn,
+                finding your own radiant happiness.
             </p>
             <div className="flex flex-row flex-wrap justify-center items-center gap-5">
                 <BlogCard
@@ -38,42 +39,41 @@ export default function BlogPostSection() {
                     read_more_link={"#brightening_lives"}
                 />
                 <BlogCard
-  src={"/img/happy_boy1.jpg"}
-  date={"08"}
-  month={"Mar"}
-  author={"Alexandra Rodriguez"}
-  comment_count={"5"}
-  title={"Empowering Young Minds"}
-  description={
-    "Join the journey of empowering underprivileged children towards a brighter future."
-  }
-  read_more_link={"#empowering_young_minds"}
-/>
-<BlogCard
-  src={"/img/happy_medical_team.jpg"}
-  date={"25"}
-  month={"Apr"}
-  author={"Michael Johnson"}
-  comment_count={"9"}
-  title={"From Despair to Delight"}
-  description={
-    "Witness the transformation of underprivileged youth from despair to delight."
-  }
-  read_more_link={"#from_despair_to_delight"}
-/>
-<BlogCard
-  src={"/img/happy_poor_education.jpg"}
-  date={"12"}
-  month={"May"}
-  author={"Emily Turner"}
-  comment_count={"4"}
-  title={"The Gift of Education"}
-  description={
-    "Explore how the gift of education is building hope for underprivileged children."
-  }
-  read_more_link={"#the_gift_of_education"}
-/>
-
+                    src={"/img/happy_boy1.jpg"}
+                    date={"08"}
+                    month={"Mar"}
+                    author={"Alexandra Rodriguez"}
+                    comment_count={"5"}
+                    title={"Empowering Young Minds"}
+                    description={
+                        "Join the journey of empowering underprivileged children towards a brighter future."
+                    }
+                    read_more_link={"#empowering_young_minds"}
+                />
+                <BlogCard
+                    src={"/img/happy_medical_team.jpg"}
+                    date={"25"}
+                    month={"Apr"}
+                    author={"Michael Johnson"}
+                    comment_count={"9"}
+                    title={"From Despair to Delight"}
+                    description={
+                        "Witness the transformation of underprivileged youth from despair to delight."
+                    }
+                    read_more_link={"#from_despair_to_delight"}
+                />
+                <BlogCard
+                    src={"/img/happy_poor_education.jpg"}
+                    date={"12"}
+                    month={"May"}
+                    author={"Emily Turner"}
+                    comment_count={"4"}
+                    title={"The Gift of Education"}
+                    description={
+                        "Explore how the gift of education is building hope for underprivileged children."
+                    }
+                    read_more_link={"#the_gift_of_education"}
+                />
             </div>
         </div>
     );

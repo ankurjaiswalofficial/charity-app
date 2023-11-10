@@ -41,6 +41,7 @@ export default function ReviewSection() {
                 <div className="relative flex items-center justify-center m-4 z-20">
                     <Image
                         src={"/img/person3.jpeg"}
+                        alt="person3 image"
                         width={32 * 16}
                         height={32 * 16}
                         className="aspect-square rounded-full w-32 h-32 object-cover"
@@ -51,6 +52,7 @@ export default function ReviewSection() {
                 <div className="relative flex items-center justify-center m-4 z-20">
                     <Image
                         src={"/img/person7.jpeg"}
+                        alt="person7 image"
                         width={32 * 16}
                         height={32 * 16}
                         className="aspect-square rounded-full w-32 h-32 object-cover"
@@ -61,6 +63,7 @@ export default function ReviewSection() {
                 <div className="relative flex items-center justify-center m-4 mx-16 z-20">
                     <Image
                         src={"/img/person1.jpeg"}
+                        alt="person1 image"
                         width={32 * 16}
                         height={32 * 16}
                         className="aspect-square rounded-full w-64 h-64 object-cover"
@@ -71,6 +74,7 @@ export default function ReviewSection() {
                 <div className="relative flex items-center justify-center m-4 z-20">
                     <Image
                         src={"/img/person5.jpeg"}
+                        alt="person5 image"
                         width={32 * 16}
                         height={32 * 16}
                         className="aspect-square rounded-full w-32 h-32 object-cover"
@@ -81,7 +85,7 @@ export default function ReviewSection() {
             </div>
             <div className="max-w-lg flex flex-col justify-start items-start p-3 gap-6 sm:gap-8">
                 <h1 className="text-8xl font-bold text-yellow-600">
-                &#10095;&#10095;
+                    &#10095;&#10095;
                 </h1>
                 <h3 className="text-gray-400 italic text-xl sm:text-2xl font-semibold w-11/12">
                     {quote.para}

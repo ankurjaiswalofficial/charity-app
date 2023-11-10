@@ -18,6 +18,7 @@ export default function Pagination({
             {values.map((e, index) => {
                 return (
                     <a
+                    key={String(index) + "_pagination_page_link"}
                         href={default_locator + String(e)}
                         className={`w-16 h-16 rounded-full border-[1.3px] border-slate-300 ${
                             active == e
