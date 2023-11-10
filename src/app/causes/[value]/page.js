@@ -199,7 +199,7 @@ export async function getStaticPaths() {
 
     return {
         paths,
-        fallback: false, // or 'blocking' if you want to handle missing pages differently
+        fallback: false,
     };
 }
 export default function PaginationCausesPage({ params }) {
@@ -209,7 +209,10 @@ export default function PaginationCausesPage({ params }) {
         <BasePage>
             <BreadCrumb
                 title={"Our causes"}
-                links={[{ text: "Causes", href: "/causes" }]}
+                links={[
+                    { text: "Causes", href: "/causes" },
+                    { text: `Page ${value}`, href: `/events/${value}` },
+                ]}
             />
             <div class="flex flex-row flex-wrap justify-evenly items-center p-4 py-12">
                 {defaultValue.map((e, index) => {

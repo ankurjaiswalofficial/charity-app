@@ -43,7 +43,7 @@ export default function BlogCard2({
                 </div>
                 <div className="flex justify-center items-center w-full">
                     <Button
-                        href="#donate_now"
+                        href="/donate_now"
                         text="donate now"
                         hovered
                         color={button_color}

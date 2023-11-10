@@ -98,7 +98,7 @@ export default function Header() {
                         </ul>
                         <div className="max-[900px]:hidden flex justify-center items-center">
                             <Button
-                                href="#donate_button"
+                                href="/donate_now"
                                 text="Donate Now"
                                 color="red-600"
                             />

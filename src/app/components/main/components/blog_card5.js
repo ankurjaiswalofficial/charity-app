@@ -54,7 +54,7 @@ export default function BlogCard5({
                 <p className="text-base text-gray-600">{description.slice(0, 65)}...</p>
                 <div className="flex justify-center items-center w-full">
                     <Button
-                        href="#donate_now"
+                        href="/donate_now"
                         text="donate now"
                         hovered
                         color={button_color}

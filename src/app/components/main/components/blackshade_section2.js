@@ -26,7 +26,7 @@ export default function BlackShadeSection2() {
             <Button
                 color="red-600"
                 hovered
-                href="#donate_now"
+                href="/donate_now"
                 text="donate now"
                 className="scale-125"
             />

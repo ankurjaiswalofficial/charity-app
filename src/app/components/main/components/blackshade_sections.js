@@ -26,13 +26,13 @@ export default function BlackShadeSection() {
                 </h5>
                 <div className="w-full flex flex-row flex-nowrap justify-center item-center gap-10">
                     <Button
-                        href="#donate_now"
+                        href="/donate_now"
                         text="Donate Now"
                         color="red-600"
                         className="max-[445px]:scale-125 sm:scale-110"
                     />
                     <Button
-                        href="#contact_us"
+                        href="/contact_us"
                         text="Contact Us"
                         color="yellow-600"
                         className="max-[445px]:scale-125 sm:scale-110"

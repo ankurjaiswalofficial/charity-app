@@ -16,16 +16,13 @@ export default function BreadCrumb({ title, links, ...props }) {
                 <h1 class="text-4xl sm:text-5xl md:text-6xl whitespace-nowrap font-bold capitalize text-white">
                     {title}
                 </h1>
-                <ul class="flex flex-row jusitfy-center items-center gap-2">
+                <ul class="flex flex-row flex-wrap justify-center items-center gap-2">
                     <li class="flex justify-center items-center capitalize">
                         <Link href={"/"}>
                             <h4 class="text-lg font-semibold text-white">
                                 Home
                             </h4>
                         </Link>
-                    </li>
-                    <li class="flex justify-center items-center capitalize">
-                        <h4 class="text-xl font-semibold text-white">//</h4>
                     </li>
                     {links.map((e, index, arr) => {
                         return (
@@ -34,19 +31,17 @@ export default function BreadCrumb({ title, links, ...props }) {
                                 class="flex flex-row jusitfy-center items-center gap-2"
                             >
                                 <li class="flex justify-center items-center capitalize">
+                                    <h4 class="text-xl font-semibold text-white">
+                                        //
+                                    </h4>
+                                </li>
+                                <li class="flex justify-center items-center capitalize">
                                     <Link href={e.href}>
                                         <h4 class="text-lg font-semibold text-white">
                                             {e.text}
                                         </h4>
                                     </Link>
                                 </li>
-                                {arr == links[arr.length - 1] ? (
-                                    <li class="flex justify-center items-center capitalize">
-                                        <h4 class="text-xl font-semibold text-white">
-                                            //
-                                        </h4>
-                                    </li>
-                                ) : null}
                             </div>
                         );
                     })}
