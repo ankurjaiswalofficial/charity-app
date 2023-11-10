@@ -8,6 +8,7 @@ import Link from "next/link";
 
 export default function Header() {
     const [headerFixed] = React.useState(true);
+    const [menuOpen, setMenuOpen] = React.useState(true);
     const { open, setOpen } = React.useContext(SearchBoxContext);
     return (
         <header
@@ -15,13 +16,13 @@ export default function Header() {
                 headerFixed ? "sticky top-0 left-0" : ""
             } w-full h-20 max-[745px]:h-16 flex justify-center items-center px-4 z-50 bg-white`}
         >
-            <div className="w-full max-[745px]:w-11/0.12 h-20 flex flex-row flex-nowrap justify-between max-[900px]:justify-center items-center px-4">
+            <div className="relative w-full max-[745px]:w-11/0.12 h-20 flex flex-row flex-nowrap justify-between max-[900px]:justify-center items-center px-4">
                 <Link href={"/"}>
                     <Brand />
                 </Link>
                 <div className="flex flex-row flex-nowrap flex-grow justify-end items-center px-6 max-[745px]:px-4 h-full">
                     <nav className="flex jusitfy-center items-center gap-12 h-full">
-                        <ul className="hidden min-[745px]:flex flex-row justify-center items-center gap-6 h-full">
+                        <ul className={`${menuOpen ? "flex" : "hidden"} min-[745px]:flex max-[745px]:absolute max-[745px]:w-full max-[745px]:top-20 max-[745px]:left-0 max-[745px]:bg-white max-[745px]:flex-wrap flex-row justify-center items-center gap-6 h-full rounded-lg`}>
                             <li className="text-sm hover:text-orange-600">
                                 <Link href={"/"}>
                                     <h4 className="text-inherit">Home</h4>
@@ -88,7 +89,7 @@ export default function Header() {
                                 </Link>
                             </li>
                             <li className="hidden max-[745px]:block text-2xl">
-                                <h4 className="text-inherit">
+                                <h4 className="text-inherit" onClick={() => setMenuOpen(!menuOpen)}>
                                     <List
                                         className="text-inherit"
                                         color="rgb(107,114,128)"

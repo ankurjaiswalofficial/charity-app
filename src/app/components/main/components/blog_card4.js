@@ -10,7 +10,7 @@ export default function BlogCard4({
     date,
     place,
     button_color,
-    read_more_link="#",
+    read_more_link="/events",
     ...props
 }) {
     const [hovered, setHovered] = React.useState(false);
