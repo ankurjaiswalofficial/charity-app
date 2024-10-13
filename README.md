@@ -1,38 +1,81 @@
-# non_profit_charity_site
+# Non-Profit Charity Site
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a non-profit charity website built using Next.js, JavaScript, and Tailwind CSS. The platform aims to support charitable causes by providing an easy way for users to learn about and donate to various initiatives.
+
+## Repo URL
+[https://github.com/ankurjaiswalofficial/charity-app](https://github.com/ankurjaiswalofficial/charity-app)
+
+## Deployment URL
+[https://non-profit-charity-site.vercel.app/](https://non-profit-charity-site.vercel.app/)
+
+## Features
+- **Responsive Design**: Tailwind CSS ensures a responsive and visually appealing layout across all devices.
+- **Dynamic Content**: Built with Next.js to provide a fast and seamless user experience with dynamic routing and server-side rendering.
+- **Donation System**: Allows users to make secure donations to support charitable initiatives.
+- **Information Hub**: Provides information about various charitable causes and how users can get involved.
+
+## Technologies Used
+- **Next.js**: React framework for server-side rendering and static site generation.
+- **JavaScript**: Programming language used for client-side functionality.
+- **Tailwind CSS**: Utility-first CSS framework for designing responsive and modern user interfaces.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+- Node.js and npm installed on your machine.
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/ankurjaiswalofficial/charity-app.git
+   ```
+2.  Navigate into the project directory:
+
+    ```bash
+    cd charity-app
+    ```
+    
+4.  Install the dependencies:
+    
+     ```bash
+    npm install
+    ```
+    
+
+### Development
+
+Run the development server:
+
+ ```bash
+ npm run dev
+ ```
+
+Open [http://localhost:3000](http://localhost:3000) to view the site locally.
+
+### Production
+
+To build the application for production:
+
+ ```bash
+ npm run build
+ ```
+
+Start the production server:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Deployment
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+This site is deployed using Vercel. You can access the live version at [https://non-profit-charity-site.vercel.app/](https://non-profit-charity-site.vercel.app/).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Contributing
+------------
 
-## Learn More
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
-To learn more about Next.js, take a look at the following resources:
+License
+-------
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is open-source and available under the MIT License.
